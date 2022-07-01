@@ -8,6 +8,7 @@ gui.geometry('1200x705')
 gui.title("Phone Number App")
 #gui.resizable(0,0)
 
+
 # F1 is the top frame
 F1 = tk.Frame(gui)
 F1.grid()
@@ -171,7 +172,7 @@ def Enter():
                               font=('monotype corsiva',30,'bold'))
             lbl11.place(x=250, y=600)
 
-#-------Radio button to check the format of the numbers---------
+#-------Radio button to check the format of the numbers entered---------
 info_header = tk.Label(F1,text='Instruction',
                 bg='red',font=('times new roman',13,'bold'))
 info_header.place(x=10,y=115)
@@ -190,7 +191,7 @@ radiobtn2.place(x=10,y=215)
 #--------------------------------------------------------------------
 
 label = tk.Label(F1,text='Enter your phone number in the box below',bg='yellow',
-                 font=('times new roman',15,'bold'))
+                 font=('times new roman', 15,'bold'))
 label.place(x=450, y=350)
 
 num = tk.StringVar() #getting the phone number by usihg string variable
